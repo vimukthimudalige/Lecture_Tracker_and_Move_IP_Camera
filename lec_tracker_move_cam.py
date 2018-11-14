@@ -217,7 +217,7 @@ def detectAndTrackLargestFace():
 
                                 custom_sync = True
                                 rot_cen_in_sec = int(rot_cen / 1000)
-                                time_required = rot_cen_in_sec + 3
+                                time_required = rot_cen_in_sec + 2
 
                                 end_timer = timer()
                                 timer_diff = int(end_timer - start_timer)
@@ -254,7 +254,7 @@ def detectAndTrackLargestFace():
 
                                 custom_sync = True
                                 rot_cen_in_sec = int(rot_cen / 1000)
-                                time_required = rot_cen_in_sec + 3
+                                time_required = rot_cen_in_sec + 2
 
                                 end_timer = timer()
                                 timer_diff = int(end_timer - start_timer)
@@ -313,7 +313,7 @@ def detectAndTrackLargestFace():
                             turn_down_ptz = muterun_js('onvif_movement/turn_up.js', str(rot_cen_vertical))
 
                             rot_cen_v_in_sec = int(rot_cen_vertical / 1000)
-                            time_required_v = rot_cen_v_in_sec + 3
+                            time_required_v = rot_cen_v_in_sec + 2
 
                             end_timer_v = timer()
                             timer_diff_v = int(end_timer_v - start_timer_v)
@@ -337,7 +337,7 @@ def detectAndTrackLargestFace():
                             turn_down_ptz = muterun_js('onvif_movement/turn_down.js', str(rot_cen_vertical))
 
                             rot_cen_v_in_sec = int(rot_cen_vertical / 1000)
-                            time_required_v = rot_cen_v_in_sec + 3
+                            time_required_v = rot_cen_v_in_sec + 2
 
                             end_timer_v = timer()
                             timer_diff_v = int(end_timer_v - start_timer_v)

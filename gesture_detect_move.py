@@ -112,6 +112,7 @@ while(1):
             if check_turned:
                     turn_to_audience = execute_js('onvif_movement/recal_turn_aud')
                     print('Turning Camera To Audience')
+                    break
                     if turn_to_audience:
                         print('turn success')
                         check_turned = False
